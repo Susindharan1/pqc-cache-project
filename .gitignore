@@ -1,0 +1,20 @@
+# Build files
+build/
+*/build/
+
+# Python environments
+venv/
+.venv/
+*/venv/
+__pycache__/
+*.pyc
+
+# Git repositories nested inside project
+**/.git/
+
+# Large generated data
+phase5_svc/runs/
+*.o
+*.elf
+*.bin
+*.log
